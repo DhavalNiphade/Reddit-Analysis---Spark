@@ -1,11 +1,5 @@
-"""Assignment 7: Spark
-
-Please add your code where indicated by "YOUR CODE HERE". You may conduct a
-superficial test of your code by executing this file in a python interpreter.
-
-This assignment asks you to analyze a large number of social media posts and
-calculate a number of summary statistics. You are encouraged to use pyspark for
-this.
+"""Analyze a large number of social media posts and
+calculate a number of summary statistics.
 
 """
 import json,time, operator, pyspark
@@ -18,6 +12,7 @@ from collections import Counter
 # 2014 and 2015 respectively.
 #
 # Each file is a sequence of JSON-encoded lines.
+
 reddit_data_filenames = [
     '/nobackup/riddella/public/2015_reddit_comments_corpus/RC_2014-01.bz2',
     '/nobackup/riddella/public/2015_reddit_comments_corpus/RC_2015-01.bz2',
